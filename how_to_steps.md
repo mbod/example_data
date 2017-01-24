@@ -100,7 +100,7 @@
     ![](img/add_files2.png)
 
 
-### 6. Add files to version control
+### 6. Add files to (local) version control
 
 * You should see a GIT menu icon at the top of the project window
 
@@ -114,3 +114,50 @@
 
     ![](img/commit_files3.png)
 
+* Add a message describing the changes you want to commit into version control and click __Commit__
+
+    ![](img/commit_files4.png)
+    
+* These files are now committed to your local git repository and you can continue to make changes to the project files and track changes in the same way buy adding changes and committing them.
+
+### 7. Add files to github repository
+
+* To push these changes to your github repository click the __Push__ icon in the top right corner.
+
+    ![](img/commit_files5.png)
+    
+* You should see a message indicating that changes to the local repository have been pushed up to your remote repository.
+
+    ![](img/commit_files6.png)
+    
+* Check the repository on github and you should see the new files added.
+
+    ![](img/commit_files7.png)
+
+
+### 8. Add file(s) on github to repository
+
+* You can add files to a github repository by uploading or creating them on the github site. For example you can add a `README.md` file if one doesn't exist:
+
+    ![](img/add_remote1.png)
+
+    * edit content
+     ![](img/add_remote2.png)
+
+    * Commit file
+     ![](img/add_remote3.png)
+
+* You'll see the new file in your repository. `README.md` file is treated in a special way and its content is displayed below the list of files. You should use this file as a way to describe the content and purpose of your repository.
+
+    ![](img/add_remote4.png)
+
+
+### 9. Syncing remote changes with your local repository
+
+* If you (or your collaborators) have made remote changes to your repository on github you will need to **pull** those changes into your local repository. In the __Git__ menu in RStudio click on the __Pull__ icon
+
+     ![](img/pull_files1.png)
+     
+* You should see a confirmation message if changes from the remote respository could be integrated into your local repository without conflicts.
+
+     ![](img/pull_files2.png)
